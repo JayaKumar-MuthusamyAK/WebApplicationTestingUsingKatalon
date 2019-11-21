@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_ValidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>153de351-4910-4433-b132-149b0a051404</testCaseGuid>
+   <variable>
+      <defaultValue>'https://gsm-sandbox.auth0.com/login?state=g6Fo2SB3WHNuaW54Y0ZtaDIxbk80cHJQbDlkTVJGRG96cFdHbKN0aWTZIHE0LVpIMFA1bnZfV0U4MWdSbkNfcXVuOUxDakFDNzVXo2NpZNkgQ1FvSW9BbGRZVHZ0WDg4RGlra3dQdlgwWGhCNVZ1OE4&amp;client=CQoIoAldYTvtX88DikkwPvX0XhB5Vu8N&amp;protocol=oauth2&amp;response_type=token&amp;redirect_uri=https%3A%2F%2Fsandbox.gsm.auto%2Flogin%2Fgsm2&amp;scope=openid%20email&amp;audience=https%3A%2F%2Fapi.gsm.auto&amp;auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4zLjQifQ%3D%3D'</defaultValue>
+      <description></description>
+      <id>d246922a-b415-4895-b9df-49af5eac94f8</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

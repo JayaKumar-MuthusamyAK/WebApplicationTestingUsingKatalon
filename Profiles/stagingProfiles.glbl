@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>stagingProfiles</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://gsm-sandbox.auth0.com/login?state=g6Fo2SB3WHNuaW54Y0ZtaDIxbk80cHJQbDlkTVJGRG96cFdHbKN0aWTZIHE0LVpIMFA1bnZfV0U4MWdSbkNfcXVuOUxDakFDNzVXo2NpZNkgQ1FvSW9BbGRZVHZ0WDg4RGlra3dQdlgwWGhCNVZ1OE4&amp;client=CQoIoAldYTvtX88DikkwPvX0XhB5Vu8N&amp;protocol=oauth2&amp;response_type=token&amp;redirect_uri=https%3A%2F%2Fsandbox.gsm.auto%2Flogin%2Fgsm2&amp;scope=openid%20email&amp;audience=https%3A%2F%2Fapi.gsm.auto&amp;auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4zLjQifQ%3D%3D'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GSM Login'</initValue>
+      <name>Title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sankaran@totient.co.in'</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sandbox85!'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

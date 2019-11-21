@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_004_BrokenLinkChecker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e772d99e-ec32-47d0-967d-cbb0ab621786</testCaseGuid>
+   <variable>
+      <defaultValue>'http://www.totient.in/index.html'</defaultValue>
+      <description></description>
+      <id>2e232ff6-6fb3-4a1d-ab09-4867975a6beb</id>
+      <masked>false</masked>
+      <name>Urls</name>
+   </variable>
+</TestCaseEntity>

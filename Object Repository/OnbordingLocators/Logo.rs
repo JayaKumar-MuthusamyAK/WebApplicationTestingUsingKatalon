@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Logo</name>
+   <tag></tag>
+   <elementGuidId>37a62a68-4e5e-4cb9-af1a-c0fa5b7eb019</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='auth0-lock-container-1']/div/div[2]/form/div/div/div/div[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>auth0-lock-header-logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;176&quot; height=&quot;60&quot; viewBox=&quot;0 0 176 60&quot;>&lt;g fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;>&lt;path fill=&quot;%231B205C&quot; d=&quot;M12.427 29.805c0-9.51 7.694-17.22 17.196-17.25v.023h21.379L63.451.128H29.623V.13C13.258.16 0 13.434 0 29.807 0 41.733 7.039 52.01 17.187 56.725l9.868-9.868c-8.282-1.264-14.628-8.417-14.628-17.052&quot;/>&lt;path fill=&quot;%2346A69E&quot; d=&quot;M60.087 22.606H35.635L23.211 35.03h15.67L17.187 56.725a29.49 29.49 0 0 0 6.104 2.063c2.058.451 4.193.696 6.386.696.819 0 1.628-.04 2.43-.105l15.555-15.555v15.658l12.425-12.425V22.606&quot;/>&lt;path fill=&quot;%231B205C&quot; d=&quot;M93.495 23.596l-11.913-.005a5.518 5.518 0 1 1 0-11.037h33.204L127.212.13h-45.63c-9.91 0-17.944 8.034-17.944 17.944 0 9.91 8.034 17.943 17.944 17.943l11.913.005a5.518 5.518 0 1 1 0 11.036H60.087L47.662 59.482h45.833c9.91 0 17.944-8.033 17.944-17.943 0-9.91-8.034-17.943-17.944-17.943&quot;/>&lt;path fill=&quot;%231B205C&quot; d=&quot;M145.336 20.34L127.211.13V20.43l18.125 17.956 18.126-17.956V.13L145.336 20.34&quot;/>&lt;path fill=&quot;%2346A69E&quot; d=&quot;M114.786 12.554v46.93l12.425-12.424V.13l-12.425 12.425M175.881 12.554v46.93L163.456 47.06V.13l12.425 12.425&quot;/>&lt;/g>&lt;/svg></value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;auth0-lock-container-1&quot;)/div[@class=&quot;auth0-lock auth0-lock-opened&quot;]/div[@class=&quot;auth0-lock-center&quot;]/form[@class=&quot;auth0-lock-widget&quot;]/div[@class=&quot;auth0-lock-widget-container&quot;]/div[@class=&quot;auth0-lock-cred-pane auth0-lock-quiet&quot;]/div[@class=&quot;auth0-lock-header&quot;]/div[@class=&quot;auth0-lock-header-welcome&quot;]/img[@class=&quot;auth0-lock-header-logo&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='auth0-lock-container-1']/div/div[2]/form/div/div/div/div[2]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In to GS Marketing'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;176&quot; height=&quot;60&quot; viewBox=&quot;0 0 176 60&quot;>&lt;g fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;>&lt;path fill=&quot;%231B205C&quot; d=&quot;M12.427 29.805c0-9.51 7.694-17.22 17.196-17.25v.023h21.379L63.451.128H29.623V.13C13.258.16 0 13.434 0 29.807 0 41.733 7.039 52.01 17.187 56.725l9.868-9.868c-8.282-1.264-14.628-8.417-14.628-17.052&quot;/>&lt;path fill=&quot;%2346A69E&quot; d=&quot;M60.087 22.606H35.635L23.211 35.03h15.67L17.187 56.725a29.49 29.49 0 0 0 6.104 2.063c2.058.451 4.193.696 6.386.696.819 0 1.628-.04 2.43-.105l15.555-15.555v15.658l12.425-12.425V22.606&quot;/>&lt;path fill=&quot;%231B205C&quot; d=&quot;M93.495 23.596l-11.913-.005a5.518 5.518 0 1 1 0-11.037h33.204L127.212.13h-45.63c-9.91 0-17.944 8.034-17.944 17.944 0 9.91 8.034 17.943 17.944 17.943l11.913.005a5.518 5.518 0 1 1 0 11.036H60.087L47.662 59.482h45.833c9.91 0 17.944-8.033 17.944-17.943 0-9.91-8.034-17.943-17.944-17.943&quot;/>&lt;path fill=&quot;%231B205C&quot; d=&quot;M145.336 20.34L127.211.13V20.43l18.125 17.956 18.126-17.956V.13L145.336 20.34&quot;/>&lt;path fill=&quot;%2346A69E&quot; d=&quot;M114.786 12.554v46.93l12.425-12.424V.13l-12.425 12.425M175.881 12.554v46.93L163.456 47.06V.13l12.425 12.425&quot;/>&lt;/g>&lt;/svg>')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+   </webElementXpaths>
+</WebElementEntity>

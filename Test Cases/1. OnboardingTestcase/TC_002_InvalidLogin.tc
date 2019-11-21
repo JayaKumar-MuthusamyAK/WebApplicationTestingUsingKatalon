@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_InvalidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9eab9f54-140e-4b24-9952-fb2d336904c5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bcdd9ce-c315-4ade-8d57-2298d9c07f88</id>
+      <masked>false</masked>
+      <name>user_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c9a42719-4d93-4e4a-8710-792fb821ecfd</id>
+      <masked>false</masked>
+      <name>user_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid Email Format'</defaultValue>
+      <description></description>
+      <id>66756965-961f-478a-ae89-d6208aef1e92</id>
+      <masked>false</masked>
+      <name>errMessage</name>
+   </variable>
+</TestCaseEntity>
