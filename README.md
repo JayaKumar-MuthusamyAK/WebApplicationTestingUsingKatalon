@@ -4,8 +4,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Prerequisites:
 
-      * Install the katalon studio on your machine.
-      * Create Katalon studion account as well.
+      1. Install the katalon studio on your machine.
+      2. Create Katalon studion account as well.
       
 ## How to Setup :
 
