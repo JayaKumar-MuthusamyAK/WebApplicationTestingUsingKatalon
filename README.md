@@ -25,10 +25,10 @@ These instructions will get you a copy of the project up and running on your loc
   
  ![alt text](https://user-images.githubusercontent.com/24611508/69401416-0bb65c00-0d1b-11ea-81e1-b56d91688706.png)
 
-      Step 1: Expand the "Test Suites" From that expand "Test Suite Groups".
-      Step 2: Open the "Functionality Test cases" file.
-      Step 3: Before that need to select the profile "stagingProfile".
-      Step 4: Click on the RUN option. Then select Chrome (Default) option.
+      Step 1: Expand the "Test Suites".
+      Step 2: Then Open the "Functionality Test cases" file.
+      Step 3: Before RUNNING the test suite needs to select the profile as "stagingProfile".
+      Step 4: Click on the RUN option. And then select Chrome (Default) option.
       
 ## Report sending through mail:
 
