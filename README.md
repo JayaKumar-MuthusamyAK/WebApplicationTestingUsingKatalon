@@ -3,8 +3,8 @@
 These instructions will get you a copy of the project up and running on your local machine.
 
 ## Prerequisites :
-      1. Install the katalon studio on your machine.
-      2. Create Katalon studion account as well.
+      - Install the katalon studio on your machine.
+      - Create Katalon studion account as well.
       
 ## How to Setup :
       1. Check out the code from this repository.
