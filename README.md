@@ -18,5 +18,5 @@ These instructions will get you a copy of the project up and running on your loc
       5. Data file selected for the test case
       6. Data binding between the data file and the test case parameters in test suite.
       
-      ![Screenshot](https://user-images.githubusercontent.com/24611508/69401416-0bb65c00-0d1b-11ea-81e1-b56d91688706.png)
+ ![alt text](https://user-images.githubusercontent.com/24611508/69401416-0bb65c00-0d1b-11ea-81e1-b56d91688706.png)
 
