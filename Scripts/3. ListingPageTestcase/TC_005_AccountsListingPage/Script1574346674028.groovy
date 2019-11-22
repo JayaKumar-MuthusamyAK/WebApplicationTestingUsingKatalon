@@ -3,10 +3,11 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.chrome.ChromeOptions
-
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
+import org.openqa.selenium.firefox.FirefoxOptions as FirefoxOptions
+import org.openqa.selenium.firefox.ProfilesIni as ProfilesIni
+import org.testng.Assert as Assert
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -15,30 +16,35 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.driver.WebUIDriverType as WebUIDriverType
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser("")
+WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl('https://www.seleniumeasy.com/test/table-sort-search-demo.html')
 
 WebUI.maximizeWindow()
 
 CustomKeywords.'com.GenericKeywords.loadProperties'()
 
-CustomKeywords.'com.GenericKeywords.switchToFrame'(findTestObject('OnbordingLocators/AcceptCokkiesBtn'))
+List<String> listOfaccountsnamewithAsc = CustomKeywords.'com.GenericKeywords.gettingAllElementsValueWithPagination'()
 
-CustomKeywords.'com.GenericKeywords.switchToDefaultWindow'()
+// Check List of record is Ascending Order or Not?
+boolean isAscendingOrder = CustomKeywords.'com.GenericKeywords.checkListAscendingOrder'(listOfaccountsnamewithAsc)
 
-WebUI.sendKeys(findTestObject('OnbordingLocators/EmailTextbox'), GlobalVariable.Email)
+Assert.assertTrue(isAscendingOrder)
 
-WebUI.sendKeys(findTestObject('OnbordingLocators/PasswordTextBox'), GlobalVariable.Password)
+WebUI.click(findTestObject('AccountsListingPageLocators/AccountsNameColumnLink'))
 
-CustomKeywords.'com.GenericKeywords.passwordFieldEncrypedChecker'(findTestObject('OnbordingLocators/PasswordTextBox'))
+List<String> listOfaccountsnameDesc = CustomKeywords.'com.GenericKeywords.gettingAllElementsValueWithPagination'()
 
-WebUI.click(findTestObject('OnbordingLocators/Login_Btn'))
+// Check List of record is Descending Order or Not?
+boolean isDescendingOrder = CustomKeywords.'com.GenericKeywords.checkListDescendingOrder'(listOfaccountsnamewithAsc, listOfaccountsnameDesc)
 
-WebUI.verifyElementPresent(findTestObject('OnbordingLocators/AccountIconAfterLogin'), 20)
+Assert.assertTrue(isDescendingOrder)
+
+WebUI.closeBrowser()
 

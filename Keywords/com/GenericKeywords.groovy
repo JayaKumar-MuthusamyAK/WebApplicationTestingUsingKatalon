@@ -207,23 +207,67 @@ public class GenericKeywords {
 	}
 
 	@Keyword
-	public boolean checkListDescendingOrder(List<String> listOfString){
-
-		List<String> tempString = new ArrayList<String>(listOfString);
+	public boolean checkListDescendingOrder(List<String> listOfString, List<String> listOfStringWithDesc){
+		
+		List<String> tempString = new ArrayList<String>(listOfStringWithDesc);
 
 		Collections.sort(listOfString, Collections.reverseOrder());
-
+		
 		return tempString.equals(listOfString);
 	}
 
 	@Keyword
-	public List<String> convertWebElementsToListOfString(){
+	public List<String> gettingAllElementsValueWithPagination(){
 
-
-
+		String textOfTotalCount = driver.findElement(By.xpath("//div[@id='example_info']")).getText();
+		
+		int totalCount = Integer.parseInt(textOfTotalCount.split("of")[1].split("entries")[0].trim());
+		
+		WebElement nextbutton = driver.findElement(By.xpath("//a[@class='paginate_button next']"));
+		
+		List<WebElement> listOfNames = driver.findElements(By.xpath("//table[@class='display dataTable no-footer']/tbody/tr/td[1]"));
+	
+		int initialCount = listOfNames.size();
+		
+		List<String> listOfStringValue = new ArrayList<String>();
+		
+		
+		while(initialCount!=totalCount){
+			
+			nextbutton = driver.findElement(By.xpath("//a[@class='paginate_button next']"));
+		
+			for(WebElement element: listOfNames){
+				
+				println element.getText();
+				
+				listOfStringValue.add(element.getText());
+				
+			}
+			
+			nextbutton.click();
+			
+			Thread.sleep(500);
+			
+			listOfNames = driver.findElements(By.xpath("//table[@class='display dataTable no-footer']/tbody/tr/td[1]"));
+			
+			initialCount += listOfNames.size();
+			
+			println initialCount;
+			
+		}
+		
+		for(WebElement element: listOfNames){
+			
+			println element.getText();
+			
+			listOfStringValue.add(element.getText());
+			
+		}
+		
+		println listOfStringValue.size();
+		
+		return listOfStringValue;
 	}
-
-
 	// Used to Take a Screen shot with respective folder
 	@Keyword
 	public void takeScreenShot(){
