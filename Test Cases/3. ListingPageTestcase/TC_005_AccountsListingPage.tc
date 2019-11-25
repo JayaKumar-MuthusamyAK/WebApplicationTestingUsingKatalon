@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>31e817e1-b651-4d56-ace8-0475c0d377f2</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.seleniumeasy.com/test/table-sort-search-demo.html'</defaultValue>
+      <description></description>
+      <id>dc937b11-cf28-4128-ab39-babc72220825</id>
+      <masked>false</masked>
+      <name>localUrl</name>
+   </variable>
 </TestCaseEntity>

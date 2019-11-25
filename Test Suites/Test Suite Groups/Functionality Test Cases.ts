@@ -21,6 +21,18 @@
          <value></value>
          <variableId>d246922a-b415-4895-b9df-49af5eac94f8</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>27e4f4ac-bda2-4820-b14a-18eac0dbb4f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>08698755-98ec-4697-94d5-e64b4ffcfc06</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7b7bc38d-9056-4fcc-bd7c-16eba2a7fd86</guid>
@@ -80,6 +92,18 @@
          <type>DATA_COLUMN</type>
          <value>Urls</value>
          <variableId>2e232ff6-6fb3-4a1d-ab09-4867975a6beb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67de05a7-650b-4db8-a241-8ff2c17a2385</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3. ListingPageTestcase/TC_005_AccountsListingPage</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dc937b11-cf28-4128-ab39-babc72220825</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

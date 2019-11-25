@@ -24,7 +24,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/table-sort-search-demo.html')
+WebUI.navigateToUrl(localUrl)
 
 WebUI.maximizeWindow()
 

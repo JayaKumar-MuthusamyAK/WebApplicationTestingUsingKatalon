@@ -3,6 +3,16 @@
    <description></description>
    <name>TC_001_ValidLogin</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>T1</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>153de351-4910-4433-b132-149b0a051404</testCaseGuid>
    <variable>
@@ -11,5 +21,19 @@
       <id>d246922a-b415-4895-b9df-49af5eac94f8</id>
       <masked>false</masked>
       <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27e4f4ac-bda2-4820-b14a-18eac0dbb4f6</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08698755-98ec-4697-94d5-e64b4ffcfc06</id>
+      <masked>false</masked>
+      <name>Password</name>
    </variable>
 </TestCaseEntity>

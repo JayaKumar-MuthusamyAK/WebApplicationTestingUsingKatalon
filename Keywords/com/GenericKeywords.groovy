@@ -48,13 +48,20 @@ public class GenericKeywords {
 
 	FileInputStream fileinput = null;
 
-	Properties prop = new Properties();
+	public Properties prop = new Properties();
 
 	@Keyword
 	public void loadProperties(){
 
-		fileinput =  new FileInputStream(System.getProperty("user.dir")+"\\console.properties");
-		prop.load(fileinput);
+		try{
+			fileinput =  new FileInputStream(System.getProperty("user.dir")+"\\console.properties");
+			prop.load(fileinput);
+		}
+		catch(IOException e){
+			
+			printLog(e.getMessage());
+			
+		}
 	}
 
 	// Used to Verify the Page Title:
@@ -94,13 +101,15 @@ public class GenericKeywords {
 	public void passwordFieldEncrypedChecker(TestObject testObjects){
 
 		WebElement element = WebUiCommonHelper.findWebElement(testObjects, 10);
-		String encryptedPasswordText = element.getAttribute(prop.getProperty("typeattribute"));
-
-		if(encryptedPasswordText.equalsIgnoreCase(prop.getProperty("passwordattribute"))){
-			Assert.assertEquals(encryptedPasswordText, prop.getProperty("passwordattribute"));
+		String encryptedPasswordText = element.getAttribute("type");
+		
+		if(encryptedPasswordText.equalsIgnoreCase("password")){
+			println "Testgdhdjhjdhd"
+			Assert.assertEquals(encryptedPasswordText, "password");
 		}
 		else{
-			Assert.assertEquals(encryptedPasswordText, prop.getProperty("passwordattribute"))
+			println "Fialsss"
+			Assert.assertEquals(encryptedPasswordText, "password");
 		}
 	}
 
@@ -208,64 +217,66 @@ public class GenericKeywords {
 
 	@Keyword
 	public boolean checkListDescendingOrder(List<String> listOfString, List<String> listOfStringWithDesc){
-		
+
 		List<String> tempString = new ArrayList<String>(listOfStringWithDesc);
 
 		Collections.sort(listOfString, Collections.reverseOrder());
-		
+
 		return tempString.equals(listOfString);
 	}
 
 	@Keyword
 	public List<String> gettingAllElementsValueWithPagination(){
 
+		// As Of now I hard coded here for Other applications.
+
 		String textOfTotalCount = driver.findElement(By.xpath("//div[@id='example_info']")).getText();
-		
+
 		int totalCount = Integer.parseInt(textOfTotalCount.split("of")[1].split("entries")[0].trim());
-		
+
 		WebElement nextbutton = driver.findElement(By.xpath("//a[@class='paginate_button next']"));
-		
+
 		List<WebElement> listOfNames = driver.findElements(By.xpath("//table[@class='display dataTable no-footer']/tbody/tr/td[1]"));
-	
+
 		int initialCount = listOfNames.size();
-		
+
 		List<String> listOfStringValue = new ArrayList<String>();
-		
-		
+
+
 		while(initialCount!=totalCount){
-			
+
 			nextbutton = driver.findElement(By.xpath("//a[@class='paginate_button next']"));
-		
+
 			for(WebElement element: listOfNames){
-				
+
 				println element.getText();
-				
+
 				listOfStringValue.add(element.getText());
-				
+
 			}
-			
+
 			nextbutton.click();
-			
+
 			Thread.sleep(500);
-			
+
 			listOfNames = driver.findElements(By.xpath("//table[@class='display dataTable no-footer']/tbody/tr/td[1]"));
-			
+
 			initialCount += listOfNames.size();
-			
+
 			println initialCount;
-			
+
 		}
-		
+
 		for(WebElement element: listOfNames){
-			
+
 			println element.getText();
-			
+
 			listOfStringValue.add(element.getText());
-			
+
 		}
-		
+
 		println listOfStringValue.size();
-		
+
 		return listOfStringValue;
 	}
 	// Used to Take a Screen shot with respective folder

@@ -21,7 +21,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'com.GenericKeywords.loadProperties'();
+CustomKeywords.'com.GenericKeywords.loadProperties'()
 
 WebUI.waitForElementPresent(findTestObject('OnbordingLocators/LoginHeaderText'), 20)
 
@@ -39,6 +39,7 @@ CustomKeywords.'com.GenericKeywords.passwordFieldEncrypedChecker'(findTestObject
 
 WebUI.click(findTestObject('OnbordingLocators/Login_Btn'))
 
+'After Valid Login user should be check whether accounts icon presented or not?'
 WebUI.verifyElementPresent(findTestObject('OnbordingLocators/AccountIconAfterLogin'), 20)
 
 CustomKeywords.'com.AssertHelper.AssertVerifyElementText'(findTestObject('OnbordingLocators/AccountIconAfterLogin'))

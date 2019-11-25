@@ -1,0 +1,68 @@
+The URL is : https://www.facebook.com/TotientBusinessSolutions and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : https://twitter.com/TotientIndia and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : https://www.linkedin.com/company/10288232 and the message is : Request denied Status Code is : 999
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/index.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/index.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/technology-research-ui-prototyping.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/product-development-customization.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/product-reengineering-migration.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/creative-ui-design-company.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/offshore-team-incubation.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/engagement_extended_team.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/fixed-cost-software-project-engagement.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/enterprise.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/technologies_moble.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/cloud-technologies.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_aboutus.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_vision.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_funatwork.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_contactus.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html# and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html#Web_UI_Developer and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html#NET_Software_Engineers and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html#Java_Software_Engineers and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html#QA_Engineer and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html# and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html# and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html# and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html# and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_contactus.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/disclaimer.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/privacy.html and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html# and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
+The URL is : http://www.totient.in/company_careers.html#page and the message is : OK Status Code is : 200
+--------------------------------------------------------------------------
